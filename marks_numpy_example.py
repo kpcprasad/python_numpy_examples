@@ -1,7 +1,13 @@
+'''Given data has 12 columns.
+Sid, sname, m1, m2, m3, m4, m5, m6, m7, m8, m9, m10 (m = marks)
 
-# coding: utf-8
+m1,m2,m3 --> are group1 subjects which has the minimum pass mark 35
+m4,m5,m6 --> are group2 subjects which has the minimum pass mark 50
+m7,m8,m9,m10 --> are group3 subjects which has the minimum pass mark 60
 
-# In[109]:
+Student must pass atleast 2 subjects In each group and overall in all 7 subjects in combination of 3 groups
+
+Find how many students passed and failed. '''
 
 import numpy as np
 file = open("F:/eda_dataset/python_numpy_transformations.txt")

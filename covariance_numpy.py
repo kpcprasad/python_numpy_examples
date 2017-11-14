@@ -3,6 +3,12 @@
 Created on Tue Nov 14 16:02:38 2017
 
 @author: kpcprasad
+
+AIM : Program to find covariance of given two Lists
+
+FORMULA : Covariance(x,y) =             n*∑xy - ∑x*∑y
+                            ------------------------------------
+                            √[ n∑x^2 - (∑x)^2] [n∑y^2 - (∑y)^2 ]
 """
 import numpy as np
 
